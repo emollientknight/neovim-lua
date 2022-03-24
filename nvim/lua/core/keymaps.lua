@@ -61,3 +61,17 @@ map('n', '<C-m>', ':Vista!!<CR>') -- open/close
 -- Telescope
 map('n', '<leader>ff', ':Telescope find_files<CR>')
 map('n', '<leader>fg', ':Telescope live_grep<CR>')
+
+-- Harpoon
+map('n', '<leader>a', ':lua require("harpoon.mark").add_file()<CR>')
+map('i', '<leader>a', '<C-c>:lua require("harpoon.mark").add_file()<CR>')
+map('n', '<leader>w', ':lua require("harpoon.ui").toggle_quick_menu()<CR>')
+map('i', '<leader>w', '<C-c>:lua require("harpoon.ui").toggle_quick_menu()<CR>')
+map('n', '<leader>1', ':lua require("harpoon.ui").nav_file(1)<CR>')
+map('i', '<leader>1', '<C-c>:lua require("harpoon.ui").nav_file(1)<CR>')
+map('n', '<leader>2', ':lua require("harpoon.ui").nav_file(2)<CR>')
+map('i', '<leader>2', '<C-c>:lua require("harpoon.ui").nav_file(2)<CR>')
+map('n', '<leader>3', ':lua require("harpoon.ui").nav_file(3)<CR>')
+map('i', '<leader>3', '<C-c>:lua require("harpoon.ui").nav_file(3)<CR>')
+map('n', '<leader>4', ':lua require("harpoon.ui").nav_file(4)<CR>')
+map('i', '<leader>4', '<C-c>:lua require("harpoon.ui").nav_file(4)<CR>')
