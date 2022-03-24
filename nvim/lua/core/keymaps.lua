@@ -57,3 +57,7 @@ map('n', '<leader>n', ':NvimTreeFindFile<CR>')      -- search file
 
 -- Vista tag-viewer
 map('n', '<C-m>', ':Vista!!<CR>') -- open/close
+
+-- Telescope
+map('n', '<leader>ff', ':Telescope find_files<CR>')
+map('n', '<leader>fg', ':Telescope live_grep<CR>')
