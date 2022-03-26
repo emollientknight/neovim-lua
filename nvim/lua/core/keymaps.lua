@@ -75,3 +75,10 @@ map('n', '<leader>3', ':lua require("harpoon.ui").nav_file(3)<CR>')
 map('i', '<leader>3', '<C-c>:lua require("harpoon.ui").nav_file(3)<CR>')
 map('n', '<leader>4', ':lua require("harpoon.ui").nav_file(4)<CR>')
 map('i', '<leader>4', '<C-c>:lua require("harpoon.ui").nav_file(4)<CR>')
+
+
+-- Float Term
+map('n', '<leader>t', ':FloatermNew<CR>')
+map('n', '<leader>t', '<C-c>:FloatermNew<CR>')
+map('n', '<leader>T', ':FloatermKill<CR>')
+map('n', '<leader>T', '<C-c>:FloatermKill<CR>')

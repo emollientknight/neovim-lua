@@ -97,4 +97,9 @@ return packer.startup(function()
     requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  -- Float Term
+
+  use 'voldikss/vim-floaterm'
+
+
 end)
